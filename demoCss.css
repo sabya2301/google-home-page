@@ -1,6 +1,12 @@
 body{
     margin: 0;
     font-family: arial, sans-serif;
+    padding-bottom: 0;
+}
+
+html{
+    margin: 0;
+    padding-bottom: 0;
 }
 
 .google-logo{
@@ -203,9 +209,13 @@ h2{
     margin-top: auto;
 }
 
+.body-end{
+    display: flex;
+}
+
 .ul-end{
     list-style: none;
-    float: left;
+    /*float: left;*/
     padding-left: 0;
     padding-right: 30px;
     line-height: 20px;
@@ -214,4 +224,67 @@ h2{
 
 h3{
     font-weight: 500;
+}
+
+.img-btm{
+    width: 8vw;
+    padding-left: 350px;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.ul-btm{
+    list-style: none;
+    display: flex;
+    padding-left: 350px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ul-btm li{
+    padding-left: 20px;
+    font-size: 14px;
+    color: blue;
+}
+
+.pg-btm{
+    display: flex;
+}
+
+.pg-btm i{
+    margin-top: 0;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.footer-top{
+    display: flex;
+    padding-left: 180px;
+}
+
+.footer-top p{
+    padding-bottom: 0px;
+    padding-right: 20px;
+    margin-bottom: 4px;
+}
+
+footer{
+    background: #e4ede5;
+    color: grey;
+    font-size: 14px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    padding-left: 180px;
+    padding-top: 0;
+    margin-top: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    padding-right: 28px;
 }
